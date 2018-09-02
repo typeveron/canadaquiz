@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JMSB Professors aha</title>
+	<link href = "style2.css" rel = "stylesheet">
+</head>
+<body>
+
+    <h1>Short canadian quiz</h1>
+    <h2>If you cheat it will take longer</h2>
+
+    <form id="quiz" name="quiz">
+
+      <p class="questions">What is our national animal?</p>
+      <input type="radio" id="mc" name="q1" value="Bed">Bed<br>
+      <input type="radio" id="mc" name="q1" value="Beaver">Beaver<br>
+      <input type="radio" id="mc" name="q1" value="Bed">It's not this<br>
+
+      <!-- // the answer is Beaver  -->
+
+      <p class="questions">What is our national sport?</p>
+      <input type="radio" id="mc" name="q2" value="Hockey">Hockey<br>
+      <input type="radio" id="mc" name="q2" value="Tag">Tag<br>
+      <input type="radio" id="mc" name="q2" value="Poutine">Poutine<br>
+	  
+	  <!-- // Hockey  -->
+
+      <p class="questions">How many points are on the maple leaf on the flag?</p>
+      <input type="radio" id="mc" name="q3" value="75">75<br>
+      <input type="radio" id="mc" name="q3" value="9">9<br>
+      <input type="radio" id="mc" name="q3" value="11">11<br>
+
+      <!-- // 11  -->
+
+      <p class="questions">What alcholic beverage do we consume the most?</p>
+      <input type="radio" id="mc" name="q4" value="Wine">Wine<br>
+      <input type="radio" id="mc" name="q4" value="Beer">Beer<br>
+      <input type="radio" id="mc" name="q4" value="Red Bull">Red Bull<br>
+
+      <!-- // Beer  -->
+
+      <p class="questions">What is the capital of canada?</p>
+      <input type="radio" id="mc" name="q5" value="Toronto">Toronto<br>
+      <input type="radio" id="mc" name="q5" value="Ottawa">Ottawa<br>
+      <input type="radio" id="mc" name="q5" value="Your Wrong City">Your Wrong City<br>
+
+      <!-- // Ottawa  -->
+
+      <p class="questions">What was invented by a canadian?</p>
+      <input type="radio" id="mc" name="q6" value="French Fries Baby">French Fries Baby<br>
+      <input type="radio" id="mc" name="q6" value="Basketball Baby">Basketball Baby<br>
+      <input type="radio" id="mc" name="q6" value="I'm Sorry">I'm Sorry<br>
+	  
+	     <!-- // Basketball baby -->
+
+
+      <p><input id="button" type="button" value="submit" onclick="check();"></p>
+    </form>
+    <div id="done">
+      <p id="correct"></p>
+      <p id="message"></p>
+	  <img id = "picture">
+    </div>
+
+
+    <script src="main.js"></script>  
+</body>
+</html>
